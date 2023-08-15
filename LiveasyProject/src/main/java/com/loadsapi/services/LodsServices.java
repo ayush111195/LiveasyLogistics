@@ -12,10 +12,10 @@ import com.loadsapi.entites.Payloads;
 
 
 @Service
-public class LodsServices {
+public class LodsServices{
 	
 @Autowired
-private LoadsRepo loadsRepo;
+private LoadsRepo loadsRepo ;
 	
 //for create the payloads--->>
 	
