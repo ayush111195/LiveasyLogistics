@@ -67,7 +67,7 @@ public List<Payloads> getAllLoads() {
 //for dlt the Payloads--->>
 		
 public void dltloads(int bid) {
-	loadsRepo.deleteById(bid);
+	loadsRepo.deleteById (bid);
 	
 }
 
