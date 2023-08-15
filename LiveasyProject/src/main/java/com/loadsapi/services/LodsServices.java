@@ -19,9 +19,9 @@ private LoadsRepo loadsRepo ;
 	
 //for create the payloads--->>
 	
-public Payloads addLoads(Payloads p) {
+public Payloads addLoads(Payloads  p) {
 	
- Payloads save=   loadsRepo.save(p);
+ Payloads save=  loadsRepo.save(p);
  
 	return save;
 	
